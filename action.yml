@@ -1,10 +1,10 @@
-name: 'Tag Creation'
+name: 'Auto Tag Commit'
 author: 'matthieuEv'
-description: 'This action creates a new tag based on the commit message.'
+description: 'An easy way to manage tag using Commits name for Releases in a project '
 branding:
   icon: 'tag'
   color: 'blue'
 
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
